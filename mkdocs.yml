@@ -1,0 +1,12 @@
+site_name: Proj2 - 2017 - 1S
+pages:
+- Home: 'index.md'
+- Referências : 'referencias.md'
+theme: bootstrap
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/extra.js
+markdown_extensions:
+  - smarty
+  - sane_lists
