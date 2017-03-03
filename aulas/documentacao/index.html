@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Documentação e GDDs - Proj2 - 2017 - 1S</title>
+
+        <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Proj2 - 2017 - 1S</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aulas <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../gd-digital/">Game design digital</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../grupos/">Divisão de grupos</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Documentação e GDDs</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../jogos/">Recomendações</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../referencias/">Referências</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a rel="next" href="../grupos/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../../jogos/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#documentacao-e-gdds">Documentação e GDDs</a></li>
+        
+            <li><a href="#vantagens-e-objetivos-de-gdds">Vantagens e objetivos de GDDs</a></li>
+        
+            <li><a href="#desvantagens-e-problemas-de-gdds">Desvantagens e problemas de GDDs</a></li>
+        
+            <li><a href="#em-proj2">Em Proj2</a></li>
+        
+            <li><a href="#metodologias">Metodologias</a></li>
+        
+            <li><a href="#como-criar-um-gdd">Como criar um GDD?</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="documentacao-e-gdds">Documentação e GDDs</h1>
+<p>Um dos principais documentos utilizados durante o desenvolvimento de jogos é o <strong>documento de game design</strong> (ou <em>game design document</em> / <strong>GDD</strong>). Nesse documento, estão detalhados diferentes aspectos do jogo, voltados a explicar a experiência desejada pelos designers, assim como seu funcionamento, objetivos e regras, principais decisões estéticas e outras considerações. Não existe um único padrão ou abordagem para a elaboração desse tipo de documento, então vamos ver alguns métodos diferentes para lidar com essa documentação.</p>
+<h3 id="vantagens-e-objetivos-de-gdds">Vantagens e objetivos de GDDs</h3>
+<ul>
+<li>Comunicar a visão do designer de forma clara</li>
+<li>Ajudar a esclarecer dúvidas em relação a diferentes aspectos do jogo, principalmente escopo</li>
+<li>Marcar detalhes importantes para manter o caráter único do jogo</li>
+<li>Dar uma base comum para que as diferentes especialidades desenvolvam suas áreas</li>
+</ul>
+<h3 id="desvantagens-e-problemas-de-gdds">Desvantagens e problemas de GDDs</h3>
+<ul>
+<li>Incentiva uma ideia de que jogos podem ser pensados completamente &ldquo;de antemão&rdquo; e não evoluídos aos poucos</li>
+<li>Pode ficar desatualizado rapidamente  </li>
+<li>Pode ficar grande demais e não ser lido</li>
+<li>Nível de detalhe incoerente: toda a vida de um personagem, poucos detalhes sobre mecânica principal</li>
+<li>Podem ser uma grande perda de tempo de desenvolvimento</li>
+<li>Podem engessar ideias que ainda não foram comprovadas por testes</li>
+<li>Designers se apegam a GDDs</li>
+</ul>
+<h2 id="em-proj2">Em Proj2</h2>
+<p>Na disciplina vamos adotar o uso do game design macro para entrega de conceitos, num primeiro momento, e do SGDD como forma consolidada de GDD mais adiante. As metodologias estão listadas abaixo.</p>
+<h2 id="metodologias">Metodologias</h2>
+<h3 id="short-game-design-document-shgdd"><a href="http://www.sbgames.org/sbgames2013/proceedings/artedesign/15-dt-paper_SGDD.pdf">Short Game Design Document (ShGDD)</a></h3>
+<p><img alt="SiGDD" src="../../imgs/sgdd.PNG" /></p>
+<p>Formato reduzido e simples, focado na escrita, voltado para game jams e trabalhos escolares que precisam de documentação resumida e que já incorpora elementos de gestão de projetos.</p>
+<h3 id="gdds-canvas-de-uma-pagina">GDDs &ldquo;canvas&rdquo; de uma página</h3>
+<ul>
+<li><a href="../../materiais/gd-macro.xlsx">Game Design Macro (em excel)</a> e <a href="../../materiais/gd-macro.pdf">em PDF</a>.</li>
+</ul>
+<p>Estes são formatos para criação de game designs de alto nível (menos detalhes, mais ideias gerais). O foco está numa apresentação resumida em que seja fácil diferenciar ideias e apresentar todos os principais aspectos de uma ideia de jogo, seja de forma textual ou visual.</p>
+<p>O formato acima é baseado nas <a href="http://stonetronix.com/gdc-2010/OnePageDesigns.ppt">idéias de Stone Librande, que cunhou o termo One-Page Design</a> para identificar abordagens que comunicam ideias sobre um jogo através de diagramas e imagens de forma resumida e atrativa em formatos grandes para facilitar apropriação e discussão.</p>
+<p><img alt="Diagrama mostrando funcionamento de Diablo 2" src="../../imgs/diablo2_combate.jpg" /></p>
+<p><em>Diagrama mostrando o sistema de combate em Diablo 2 (Stone Librande).</em></p>
+<h2 id="como-criar-um-gdd">Como criar um GDD?</h2>
+<ol>
+<li>Usar ferramentas que facilitem colaboração, seja presencial ou à distância (comentários, marcar pessoas, histórico). <em>Exemplos: Google Docs / Planilhas, Trello</em>.</li>
+<li>Tornar uma pessoa responsável pela manutenção e atualização do GDD, mas aberta aos inputs de todos.</li>
+<li>Use imagens (próprias ou com licenças adequadas) quando possível, pois às vezes um diagrama ou mockup explica melhor uma feature do que muitas palavras.</li>
+<li>Lembre-se: cada jogo vai acabar tendo um GDD diferente, para atender suas necessidades específicas. Pense no que é mais importante para seu jogo.</li>
+</ol>
+<blockquote>
+<p>Por exemplo, um documento de Super Mario Bros. possivelmente teria um capítulo sobre 1) Movimentação, 2) Inimigos, 3) Elementos do level, 4) Levels, 5)Limitações de gameplay e 6)Feedback sonoro e visual. No primeiro capítulo, seria descrito a movimentação do Mario, no que ela era semelhante a outros jogos plataforma da sua época e no que ela era diferente. No segundo, cada um dos inimigos seria descrito e como eles funcionavam. No terceiro, o funcionamento das estruturas do mundo como os buracos, os tubos, as plataformas que podem ser atravessadas ou não, destruídas ou não e a bandeira de fim de fase. O capítulo de levels daria uma intro de quantos mundos e quantos levels por mundo existem, mencionando as mudanças estéticas e de level design em cada um deles. O quinto capítulo falaria do sistema de vidas, de pontos e de tempo, ou seja, tudo que limita o jogador e adiciona dificuldade ao jogo que é externo ao level design. Por fim, o capítulo de feedback explicaria a musica e efeito visual de pegar uma estrela, os efeitos de morte, o som de pegar uma moeda, a aceleração da musica quando o tempo está acabando etc. (<em>Thais Weiller</em>)</p>
+</blockquote>
+<hr />
+<h3 id="referencias">Referências</h3>
+<ul>
+<li>COOK, D. Lost Garden: <strong>Game Design Logs</strong>, [s.d.]. Disponível em: <a href="http://www.lostgarden.com/2011/05/game-design-logs.html">http://www.lostgarden.com/2011/05/game-design-logs.html</a>. Acesso em: 30 ago. 2016</li>
+<li>SCHELL, J. <strong>A arte do game design: o livro original.</strong> [s.l.] CRC Press, 2010.</li>
+<li>WEILLER, T. <strong>GDD: quando, onde e como.</strong> Disponível em: <a href="http://gamestartlivro.net/post/138084851042/gdd-quando-onde-e-como">http://gamestartlivro.net/post/138084851042/gdd-quando-onde-e-como</a>. Acesso em: 30 ago. 2016.</li>
+</ul></div>
+        </div>
+
+	<footer class="col-md-12">
+		<hr>
+		
+		<p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+	</footer>
+
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../js/extra.js"></script>
+    </body>
+</html>
