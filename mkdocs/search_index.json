@@ -172,7 +172,7 @@
         }, 
         {
             "location": "/jogos/", 
-            "text": "Recomenda\u00e7\u00f5es\n\n\nRegular Human Basketball\n\n\n\n\nJogo que explora humor, esporte e a ideia de controle de uma forma inusitada e ca\u00f3tica. Mais infos, \naqui\n.\n\n\nSagittarius\n\n\n\n\n\n\nJogo multiplayer local para 2 a 5 jogadores. Poucas regras, poucas intera\u00e7\u00f5es, mas muitas possibilidades de partidas, explorando a complexidade das regras de movimento gravitacional.", 
+            "text": "Recomenda\u00e7\u00f5es\n\n\nRegular Human Basketball\n\n\n\n\nJogo que explora humor, esporte e a ideia de controle de uma forma inusitada e ca\u00f3tica. Mais infos, \naqui\n.\n\n\nSagittarius\n\n\n\n\n\n\nJogo multiplayer local para 2 a 5 jogadores. Poucas regras, poucas intera\u00e7\u00f5es, mas muitas possibilidades de partidas, explorando a complexidade das regras de movimento gravitacional.\n\n\nIn the crowd\n\n\n\n\nJogo multiplayer local para at\u00e9 6 jogadores, em que o objetivo \u00e9 atacar os outros jogadores enquanto se esconde numa multid\u00e3o de NPCs. A premissa \u00e9 simples e o jogo permite uma s\u00e9rie de estrat\u00e9gias e reviravoltas.", 
             "title": "Recomenda\u00e7\u00f5es"
         }, 
         {
@@ -189,6 +189,11 @@
             "location": "/jogos/#sagittarius", 
             "text": "Jogo multiplayer local para 2 a 5 jogadores. Poucas regras, poucas intera\u00e7\u00f5es, mas muitas possibilidades de partidas, explorando a complexidade das regras de movimento gravitacional.", 
             "title": "Sagittarius"
+        }, 
+        {
+            "location": "/jogos/#in-the-crowd", 
+            "text": "Jogo multiplayer local para at\u00e9 6 jogadores, em que o objetivo \u00e9 atacar os outros jogadores enquanto se esconde numa multid\u00e3o de NPCs. A premissa \u00e9 simples e o jogo permite uma s\u00e9rie de estrat\u00e9gias e reviravoltas.", 
+            "title": "In the crowd"
         }, 
         {
             "location": "/referencias/", 
