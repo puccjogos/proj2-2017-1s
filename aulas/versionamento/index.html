@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Versionamento - Proj2 - 2017 - 1S</title>
+
+        <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Proj2 - 2017 - 1S</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aulas <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../gd-digital/">Game design digital</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../grupos/">Divisão de grupos</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../documentacao/">Documentação e GDDs</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../greenlight01/">Greenlight 01</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../organizando-projeto/">Organizando projetos</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Versionamento</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../referencias/">Referências</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a rel="next" href="../organizando-projeto/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../../referencias/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#versionamento-e-gerenciamento-de-projeto">Versionamento e gerenciamento de projeto</a></li>
+        
+            <li><a href="#criando-um-repositorio">Criando um repositório</a></li>
+        
+            <li><a href="#listando-modificacoes-status-e-add">Listando modificações: status e add</a></li>
+        
+            <li><a href="#salvando-modificacoes-commit-e-push">Salvando modificações: commit e push</a></li>
+        
+            <li><a href="#recuperando-alteracoes-pull">Recuperando alterações: pull</a></li>
+        
+            <li><a href="#combinando-branches-o-comando-merge">Combinando branches: o comando merge</a></li>
+        
+            <li><a href="#usando-o-git-com-a-unity">Usando o Git com a Unity</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="versionamento-e-gerenciamento-de-projeto">Versionamento e gerenciamento de projeto</h1>
+<p>O uso de sistemas de versionamento e controle de código é fundamental no desenvolvimento de software. Alguns tipos principais são Git, Mercurial e SVN. Vamos falar sobre Git (<a href="https://git-scm.com/book/pt-br/v2">aqui está o link para um livro online em português sobre essa ferramenta, com bem mais detalhes</a>).</p>
+<p>Esse tipo de controle de repositório (o que seria o seu projeto) é utilizado por muitas ferramentas externas, como por exemplo o Cloud Build da Unity, como fonte para serviços de compilação e distribuição automática para teste. Saber utilizar um repositório é requisito básico para poder utilizar essas ferramentas de forma efetiva.</p>
+<p>Para aprender os comandos básicos, é possível praticar neste <a href="https://try.github.io/">tutorial interativo</a>. Os principais comandos estão listados e explicados abaixo.</p>
+<h3 id="criando-um-repositorio">Criando um repositório</h3>
+<h4 id="localmente">Localmente</h4>
+<pre><code>$ git init
+</code></pre>
+
+<p>Pronto, essa pasta do seu computador agora tem um repositório Git.</p>
+<h4 id="no-github">No Github</h4>
+<p>Para controlar seu repositório via itnernet, deve-se criá-lo em um serviço de hospedagem, como o Github ou BitBucket. Isso é feito a partir da interface do site, na <code>Home</code> do usuário. Tem um botão bem grande <code>New Repository</code>. Depois de feita essa etapa, você deve executar os comandos abaixo para fazer a ligação entre sua versão local e a online.</p>
+<pre><code>$ git remote add origin URL-REPO.git
+$ git push -u origin master
+</code></pre>
+
+<h3 id="listando-modificacoes-status-e-add">Listando modificações: <code>status</code> e <code>add</code></h3>
+<pre><code>$ git status
+$ git add *
+</code></pre>
+
+<p>Com esses comandos, conseguimos ver o estado da nossa pasta de projeto, assim como depois adicionar arquivos à nossa <code>staging area</code>, ou seja, o conjunto de modificações que serão salvas.</p>
+<h3 id="salvando-modificacoes-commit-e-push">Salvando modificações: <code>commit</code> e <code>push</code></h3>
+<pre><code>$ git commit -m &quot;minha mensagem de commit&quot;
+$ git push origin master
+</code></pre>
+
+<p>Quando estamos certos de que queremos salvar nossas modificações que já adicionamos à <code>staging area</code>, criamos um <code>commit</code>. É uma versão do projeto que incorpora essas modificações e associa uma mensagem e histórico a elas. Esse commit ainda existe localmente, só nessa máquina, até ser feito o comando <code>push</code>, quando estas alterações são mandadas para o servidor.</p>
+<p>Onde está a palavra <code>master</code> acima, poderiam estar o nome de outras <code>branches</code>. Mas, o que é isso? Vamos ver mais adiante.</p>
+<h3 id="recuperando-alteracoes-pull">Recuperando alterações: <code>pull</code></h3>
+<p>Quando existem alterações no servidor e você quer baixar elas para sua máquina local, o comando a ser utilizado é <code>git pull</code>.</p>
+<h3 id="combinando-branches-o-comando-merge">Combinando <code>branches</code>: o comando <code>merge</code></h3>
+<p>Uma boa prática para o desenvolvimento de novas features ou funcionalidade do jogo é criar <code>branches</code>, ou ramificações, do projeto, que permitem o desenvolvimento em paralelo de forma mais organizada. Os desenvolvedores criam uma <code>branch</code> no início do desenvolvimento de uma funcionalidade, vão fazendo commits nela, até chegar numa versão para ser integrada com o resto do projeto. Aí essa <code>branch</code> é combinada usando o comando <code>merge</code> com outra ramificação e possíveis conflitos são resolvidos.</p>
+<pre><code>// criação de uma nova branch e 'entrar' nela
+$ git branch nova-ramificacao
+$ git checkout nova-ramificacao
+
+...
+
+// muitos commits depois, o merge:
+// 1. mudar para a branch de destino
+// 2. rodar o merge
+$ git checkout master
+$ git merge iss53
+</code></pre>
+
+<h2 id="usando-o-git-com-a-unity">Usando o Git com a Unity</h2>
+<h3 id="configuracoes-no-editor">Configurações no editor</h3>
+<p>Em <code>Edit &gt; Project Settings &gt; Editor</code>, mude a opção <code>Version control</code> para <code>Visible meta files</code>. Salve o projeto, feche e abra o editor para atualizar a pasta.</p>
+<h3 id="arquivos-a-ignorar">Arquivos a ignorar</h3>
+<p>Em uma pasta de projeto que está sendo versionada é comum querer ignorar alguns arquivos que não são necessários para definir o projeto ou que serão gerados automaticamente pela máquina de cada usuário. Isso é definido em um arquivo de ignore. No caso do git, ele se chama <code>.gitignore</code>.</p>
+<p>Abaixo, um exemplo de <code>.gitignore</code> para uso em um repositório com múltiplos projetos da Unity. Repare na inclusão de todos os arquivos <code>.meta</code> e na exclusão das pastas <code>Temp</code>, <code>Library</code> e <code>Obj</code>. Essas pastas e outros arquivos ignorados são gerados automaticamente pela ferramenta baseada no conteúdo das pastas  <code>Assets</code> e <code>ProjectSettings</code>.</p>
+<pre><code>**[Ll]ibrary/
+**[Tt]emp/
+**[Oo]bj/
+
+# Autogenerated VS/MD solution and project files
+**.csproj
+**.unityproj
+**.sln
+**.apk
+**.sln.DotSettings.user
+**.suo
+**.userprefs
+**.pidb
+
+# include meta files
+!**.meta
+</code></pre></div>
+        </div>
+
+	<footer class="col-md-12">
+		<hr>
+		
+		<p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+	</footer>
+
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../js/extra.js"></script>
+    </body>
+</html>
