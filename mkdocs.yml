@@ -1,6 +1,13 @@
 site_name: Proj2 - 2017 - 1S
 pages:
 - Home: 'index.md'
+- Aulas:
+  - 'Game design digital' : 'aulas/gd-digital.md'
+  - 'Divisão de grupos' : 'aulas/grupos.md'
+  - 'Documentação e GDDs' : 'aulas/documentacao.md'
+  - 'Greenlight 01' : 'aulas/greenlight01.md'
+  - 'Organizando projetos' : 'aulas/organizando-projeto.md'
+  - 'Versionamento' : 'aulas/versionamento.md'
 - Referências : 'referencias.md'
 theme: bootstrap
 extra_css:

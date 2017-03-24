@@ -2,29 +2,31 @@
 
 Este site é a apostila digital da disciplina *Projeto Integrado 2*, ministrada no 1º semestre de 2017 no curso de Tecnologia em Jogos Digitais da PUC-Campinas. Aqui você encontra os links para materiais, assim como outras informações relevantes.
 
+[As recomendações de jogos agora estão aqui.](https://puccjogos.github.io/recomendacoes-enric/)
+
 ## Cronograma
 
-| Data  | Aula                                                                                      | 
-|-------|-------------------------------------------------------------------------------------------| 
-| 17/02 | Apresentação da disciplina e discussão sobre projetos e expectativas                      | 
-| 24/02 | Introdução ao game design digital e divisão de grupos / Entrega: Formulário de interesses | 
-| 03/03 | Experimentação com game design simples e documentação                                     | 
-| 10/03 | Greenlight 01 (conceito) / Entrega: Docs de conceito                                      | 
-| 17/03 | Organizando a produção de um jogo digital                                                 | 
-| 24/03 | Greenlight 02 (protótipo) / Entrega: Avaliação 360 e documento de game design             | 
-| 31/03 | Prototipagem digital e versionamento                                                      | 
-| 07/04 | Playtest 01                                                                               | 
-| 14/04 | Feriado / Entrega: Relatório do playtest 01                                               | 
-| 21/04 | Feriado                                                                                   | 
-| 28/04 | Playtest 02                                                                               | 
-| 05/05 | Acompanhamento de projetos / Entrega: Relatório do playtest 02                            | 
-| 12/05 | Acompanhamento de projetos                                                                | 
-| 19/05 | Playtest 03                                                                               | 
-| 26/05 | Revisão de protótipos e noções de equilíbrio / Entrega: Relatório do playtest 03          | 
-| 02/06 | Elaborando a ficha técnica e materiais sobre um projeto de jogo                           | 
-| 09/06 | Apresentações finais / Entrega: Portfólios finais                                         | 
-| 16/06 | Feriado                                                                                   | 
-| 23/06 | Fechamento da disciplina                                                                  | 
+| Data  | Aula                                                                                      |
+|-------|-------------------------------------------------------------------------------------------|
+| 17/02 | Apresentação da disciplina e discussão sobre projetos e expectativas                      |
+| 24/02 | [Introdução ao game design digital](aulas/gd-digital.md) e [divisão de grupos](aulas/grupos.md) / Entrega: Formulário de interesses |
+| 03/03 | Experimentação com game design simples e [documentação](aulas/documentacao.md) |
+| 10/03 | [Greenlight 01](aulas/greenlight01.md) (conceito) / Entrega: Docs de conceito -> [Resultados da votação (parciais)](../materiais/votacao-gl01-v01.pdf) |
+| 17/03 | [Organizando a produção de um jogo digital](aulas/organizando-projeto.md) |
+| 24/03 | [Versionamento](aulas/versionamento.md) |
+| 31/03 | Greenlight 02 (protótipo) com playtest / Entrega: Avaliação 360 |
+| 07/04 | Acompanhamento de projetos |
+| 14/04 | Feriado / Entrega: Relatório do playtest 01 |
+| 21/04 | Feriado |
+| 28/04 | Playtest 02 |
+| 05/05 | Acompanhamento de projetos / Entrega: Relatório do playtest 02 |
+| 12/05 | Acompanhamento de projetos |
+| 19/05 | Playtest 03 |
+| 26/05 | Revisão de protótipos e noções de equilíbrio / Entrega: Relatório do playtest 03 |
+| 02/06 | Elaborando a ficha técnica e materiais sobre um projeto de jogo                           |
+| 09/06 | Apresentações finais / Entrega: Portfólios finais                                         |
+| 16/06 | Feriado                                                                                   |
+| 23/06 | Fechamento da disciplina                                                                  |
 
 ## Plano de ensino
 
@@ -36,7 +38,7 @@ Correlacionar os conteúdos das disciplinas ministradas até o momento, e direci
 
 Orientar a produção do material visual necessário para o desenvolvimento de jogos rápidos e do Projeto de Jogo.
 
-### Objjetivos específicos
+### Objetivos específicos
 
 Desenvolver desenhos de personagens, cenários, mapas, texturas e Concept do Projeto de Jogo; Desenvolver materiais visuais necessarios para o desenvolvimento de jogos rápidos; Aperfeiçoar o roteiro e Story-board do projeto de Jogo.
 
@@ -58,10 +60,10 @@ Média final: (portfolio x 4) + (relatórios x 3) + (avaliação continuada x 3)
 
 ### Critérios de avaliação
 
-Qualidade e Pontualidade na entrega dos exercícios. Organização do trabalho nos grupos. Participação nas aulas. 
+Qualidade e Pontualidade na entrega dos exercícios. Organização do trabalho nos grupos. Participação nas aulas.
 
 É importante notar que se o aluno não estiver contribuindo para o trabalho coletivo, de acordo com observação do professor e atividades avaliativas realizadas, este pode ficar sem as notas de cunho coletivo, o que implica em sua reprovação na disciplina.
 
-#### Integridade Acadêmica 
+#### Integridade Acadêmica
 
 A constatação de cola ou plágio em qualquer atividade avaliada (prova ou atividade prática) implicará em reprovação na disciplina dos alunos envolvidos, com nota zero. Entende-se por envolvidos tanto os alunos que fizeram a cola (ou plágio) como os que permitiram que ela fosse feita. Dependendo da gravidade do incidente, as devidas autoridades institucionais serão acionadas para a adoção das sanções disciplinares cabíveis. Na dúvida do que se considera plágio, o professor deve ser consultado antes da entrega do trabalho em questão.
