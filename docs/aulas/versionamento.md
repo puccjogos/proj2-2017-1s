@@ -64,7 +64,7 @@ $ git checkout nova-ramificacao
 // 1. mudar para a branch de destino
 // 2. rodar o merge
 $ git checkout master
-$ git merge iss53
+$ git merge nova-ramificacao
 ```
 
 ## Usando o Git com a Unity

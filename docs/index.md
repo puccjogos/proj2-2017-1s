@@ -14,8 +14,8 @@ Este site é a apostila digital da disciplina *Projeto Integrado 2*, ministrada 
 | 10/03 | [Greenlight 01](aulas/greenlight01.md) (conceito) / Entrega: Docs de conceito -> [Resultados da votação (parciais)](../materiais/votacao-gl01-v01.pdf) |
 | 17/03 | [Organizando a produção de um jogo digital](aulas/organizando-projeto.md) |
 | 24/03 | [Versionamento](aulas/versionamento.md) |
-| 31/03 | Greenlight 02 (protótipo) com playtest / Entrega: Avaliação 360 |
-| 07/04 | Acompanhamento de projetos |
+| 31/03 | Acompanhamento de projetos |
+| 07/04 | Greenlight 02 (protótipo) com playtest / Entrega: Avaliação 360 |
 | 14/04 | Feriado / Entrega: Relatório do playtest 01 |
 | 21/04 | Feriado |
 | 28/04 | Playtest 02 |
